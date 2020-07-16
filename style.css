@@ -495,10 +495,15 @@ body {
 
     .title-text {
         font-size: 38px;
+        line-height: 40px;
     }
 
     .item-img {
         margin-top: 30px;
+    }
+
+    .image1 {
+        margin-right: 0;
     }
 
     .recom {
@@ -555,6 +560,7 @@ body {
 @media (max-width: 810px) {
     .title-text {
         font-size: 30px;
+        line-height: 32px;
     }
 
     .item-info {
@@ -619,6 +625,7 @@ body {
 @media (max-width: 566px) {
     .title-text {
         font-size: 28px;
+        line-height: 32px;
     }
 
     .sale-title {
@@ -652,12 +659,22 @@ body {
 
     .timer-img {
         width: 90%;
+        margin-right: 0;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
+    .title {
+        padding-top: 20px;
+    }
+
+    .item {
+        margin-top: 40px;
+    }
+
     .title-text {
         font-size: 18px;
+        line-height: 26px;
     }
 
     .item-title {
@@ -689,6 +706,19 @@ body {
         width: 280px;
         margin: 0 auto;
         margin-top: 10px;
+    }
+
+    .sale-title {
+        font-size: 18px;
+    }
+
+    .sale-title2::before,
+    .sale-title2::after {
+        width: 25px;
+    }
+
+    .old-price:before {
+        height: 60%;
     }
 
 }
